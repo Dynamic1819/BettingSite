@@ -41,7 +41,7 @@
           </ul>
         
         </div>
-        <div class="drawer-content">
+        <div class="drawer-content lg:w-[80vw]">
             <section class="flex justify-between">
                 <div></div>
 
@@ -64,23 +64,172 @@
                     <option value="">3.11.2023</option>
                 </select>
 
-                <div class="flex items-center m-3">
-                    <div class="flex items-center gap-x-2">
+                <div class="flex items-center m-3 align-baseline">
+                    <div class="flex flex-wrap space-y-3 items-center lg:gap-x-4">
                         <span class="p-3 bgteal rounded-md">Date of Deposite</span>
-                        <span><input type="text" placeholder="3.11.2023" class="p-3 shadow-lg rounded-md border"></span>
-                    </div>
-                    <div class="mx-7 space-x-4">
-                        <span class="bgteal px-6 py-3 rounded-md">Amount</span>
-                        <span class="bgpur px-6 py-3 rounded-md">500,000</span>
-                    </div>
-                    <div class="w-1/5">
+                        <span>
+                            <input type="text" placeholder="3.11.2023" class="p-3 shadow-lg rounded-md border">
+                        </span>
+                        
+                        <div>
+                            <span class="bgteal p-3 rounded-md">Amount</span>
+                            <span class="bgpur p-3 rounded-md">500,000</span>
+                        </div>
                         <div class="bgblue rounded-md p-3">
                             <span class="px-3 border-r">Old Balance</span>
                             <span class="px-4 float-right">100,000</span>
                         </div>
                     </div>
                 </div>
-                
+
+                <div class="flex flex-wrap">
+                    <div class="flex items-center m-3 align-baseline pt-5 gap-x-3">
+                        <div class="flex flex-col gap-y-6">
+                            <span class="bgteal p-3 rounded-md">Betting 2D Date</span>
+                            <span class="bgteal p-3 rounded-md">Betting 2D AM</span>
+                            <div class="bgpur p-3 rounded-md flex justify-between">
+                                <span class="border-r pr-4">Bonus</span>
+                                <span>500</span>
+                            </div>
+                            <span class="bgteal p-3 rounded-md">Betting 2D AM</span>
+                            <span class="bgteal p-3 rounded-md">2D AM Win</span>
+                        </div>
+                        <div class="flex flex-col gap-y-6 w-32 text-center">
+                            <span class="shadow-lg border p-3 rounded-md">
+                                <select name="" id="" class="w-full">
+                                    <option value="">3.11.2023</option>
+                                </select>
+                            </span>
+                            <span class="shadow-lg rounded-md">
+                                <input type="text" value="400,000" class="p-2.5">
+                            </span>
+                            <button class="btn bgyel p-3 rounded-md flex justify-evenly items-center">
+                                <span class="border-r pr-4">44</span>
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                      </svg>
+                                </span>
+                            </button>
+                            <span class="shadow-lg p-3 rounded-md">400,000</span>
+                            <span class="shadow-lg p-3 rounded-md text-red-500">800,000</span>
+                        </div>
+                    </div>
+    
+                    <div class="flex items-center m-3 align-baseline pt-5 gap-x-3">
+                        <div class="flex flex-col gap-y-6">
+                            <span class="bgteal p-3 rounded-md">Betting 2D Date</span>
+                            <span class="bgteal p-3 rounded-md">Betting 2D AM</span>
+                            <div class="bgpur p-3 rounded-md flex justify-between">
+                                <span class="border-r pr-4">Bonus</span>
+                                <span>500</span>
+                            </div>
+                            <span class="bgteal p-3 rounded-md">Betting 2D AM</span>
+                            <span class="bgteal p-3 rounded-md">2D AM Win</span>
+                        </div>
+                        <div class="flex flex-col gap-y-6 w-32 text-center">
+                            <span class="shadow-lg border p-3 rounded-md">
+                                <select name="" id="" class="w-full">
+                                    <option value="">3.11.2023</option>
+                                </select>
+                            </span>
+                            <span class="shadow-lg rounded-md">
+                                <input type="text" value="400,000" class="p-2.5">
+                            </span>
+                            <button class="btn bgyel p-3 rounded-md flex justify-evenly items-center">
+                                <span class="border-r pr-4">44</span>
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                      </svg>
+                                </span>
+                            </button>
+                            <span class="shadow-lg p-3 rounded-md">400,000</span>
+                            <span class="shadow-lg p-3 rounded-md text-red-500">800,000</span>
+                        </div>
+                    </div>
+    
+                    <div class="flex items-center m-3 align-baseline pt-5 gap-x-3">
+                        <div class="flex flex-col gap-y-6">
+                            <span class="bgteal p-3 rounded-md">Betting 2D Date</span>
+                            <span class="bgteal p-3 rounded-md">Betting 2D AM</span>
+                            <div class="bgpur p-3 rounded-md flex justify-between">
+                                <span class="border-r pr-4">Bonus</span>
+                                <span>500</span>
+                            </div>
+                            <span class="bgteal p-3 rounded-md">Betting 2D AM</span>
+                            <span class="bgteal p-3 rounded-md">2D AM Win</span>
+                        </div>
+                        <div class="flex flex-col gap-y-6 w-32 text-center">
+                            <span class="shadow-lg border p-3 rounded-md">
+                                <select name="" id="" class="w-full">
+                                    <option value="">3.11.2023</option>
+                                </select>
+                            </span>
+                            <span class="shadow-lg rounded-md">
+                                <input type="text" value="400,000" class="p-2.5">
+                            </span>
+                            <button class="btn bgyel p-3 rounded-md flex justify-evenly items-center">
+                                <span class="border-r pr-4">44</span>
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                      </svg>
+                                </span>
+                            </button>
+                            <span class="shadow-lg p-3 rounded-md">400,000</span>
+                            <span class="shadow-lg p-3 rounded-md text-red-500">800,000</span>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col pt-5 m-3 gap-y-5">
+                        <div class="flex flex-col">
+                            <div class="bgblue rounded-md h-[11.4rem] relative">
+                                <div class="p-3 flex">
+                                    <span class="border-r pr-5">Total Balance</span>
+                                    <span class="pl-5">
+                                        600,000
+                                    </span>
+                                </div>
+                                <div class="p-3 flex">
+                                    <span class="border-r pr-5">Total Balance</span>
+                                    <span class="pl-5">
+                                        600,000
+                                    </span>
+                                </div>
+                                <div class="absolute flex flex-col text-right bottom-2 right-3">
+                                    <span class="">Closing Balance</span>
+                                    <span>0</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bgpur rounded-md p-3 text-right">
+                            <span>+200,000</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div class="flex md:flex-wrap lg:flex-nowrap w-full">
+                    <div class="flex flex-col bgred p-3 m-3 w-1/3 rounded-md">
+                        <span class="font-semibold">Withdraw</span>
+                        <span class="text-right pt-3 text-lg font-bold">50,000</span>
+                    </div>
+                    <div class="flex justify-between bgpur p-3 m-3 w-2/3 rounded-md">
+                        <div class="flex flex-col">
+                            <span class="font-semibold">Active Balance</span>
+                            <span class=" pt-3 text-lg font-bold">200,000</span>
+                        </div>
+                        <div class="flex flex-col">
+                            <span class="font-semibold">Closing Balance</span>
+                            <span class=" pt-3 text-lg font-bold">50,000</span>
+                        </div>
+                    </div>
+                </div>
             </section>
         </div>
     </div>

@@ -5,22 +5,25 @@
     @apply m-0 p-0 box-border text-sm;
 }
 .active-side{
-    @apply bg-purple-800 text-white;
+    @apply bg-[#90278E] text-white;
 }
 .bgpur{
-    @apply bg-purple-800 text-white;
+    @apply bg-[#90278E] text-white;
 }
 .bgteal{
-    @apply bg-teal-500 text-white;
+    @apply bg-[#12AC8D] text-white;
 }
 .bgyel{
-    @apply bg-yellow-500 text-white;
+    @apply bg-[#F6921E] text-white;
 }
 .bgred{
-    @apply bg-red-700 text-white;
+    @apply bg-[#FF0000] text-white;
 }
 .bgblue{
-    @apply bg-blue-700 text-white;
+    @apply bg-[#2000FF] text-white;
+}
+.bggray{
+    @apply bg-[#2D3E65] text-white;
 }
 
 /* Sidebar */
@@ -63,16 +66,16 @@
     @apply flex items-center bg-white text-black rounded-lg m-3;
 }
 .user-indi{
-    @apply flex flex-col px-5 py-2 rounded-lg font-bold space-y-3;
+    @apply flex flex-col px-5 py-2 rounded-lg font-bold space-y-3 shadow-md;
 }
 .user-no{
     @apply font-extrabold lg:text-xl md:text-lg;
 }
 .betting-container{
-    @apply flex m-3 rounded-md;
+    @apply flex items-center m-3 rounded-lg;
 }
 .betting-inner{
-    @apply flex items-center rounded-md;
+    @apply flex items-center rounded-md shadow-md;
 }
 .betting-head{
     @apply flex items-center py-3 md:px-1.5 lg:px-3 h-full md:text-lg lg:text-xl md:font-bold lg:font-extrabold;
@@ -102,16 +105,25 @@
     @apply absolute bottom-0 text-xs font-bold;
 }
 .commission{
-    @apply flex items-center bgpur m-3 rounded-md;
+    @apply flex items-center m-3;
+}
+.commission-inner{
+    @apply flex items-center bgpur rounded-md;
 }
 .ag-commission{
-    @apply flex items-center bgpur m-3 p-2 rounded-md w-48;
+    @apply flex items-center m-3;
+}
+.ag-commission-inner{
+    @apply flex flex-col bgpur rounded-md w-48 p-3;
 }
 .user-commission{
-    @apply flex items-center bgteal m-3 p-2 rounded-md w-48;
+    @apply flex items-center m-3;
+}
+.user-commission-inner{
+    @apply flex flex-col bgteal rounded-md w-48 p-3;
 }
 .user-commission-profit{
-    @apply flex items-center bgteal m-3 p-2 rounded-md;
+    @apply flex items-center m-3 rounded-md;
 }
 .user-chart-container{
     @apply flex flex-col items-center md:w-2/3 lg:w-1/2 max-w-screen-md p-3 lg:p-6 m-3 bg-white rounded-lg shadow-xl;

@@ -1,0 +1,127 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    @apply m-0 p-0 box-border text-sm;
+}
+.active-side{
+    @apply bg-purple-800 text-white;
+}
+.bgpur{
+    @apply bg-purple-800 text-white;
+}
+.bgteal{
+    @apply bg-teal-500 text-white;
+}
+.bgyel{
+    @apply bg-yellow-500 text-white;
+}
+.bgred{
+    @apply bg-red-700 text-white;
+}
+.bgblue{
+    @apply bg-blue-700 text-white;
+}
+
+/* Sidebar */
+.menu{
+    @apply p-4 w-52 min-h-full space-y-3 bg-gray-300 text-black;
+}
+.menu li{
+    @apply rounded-md hover:bg-yellow-500 hover:text-white;
+}
+.logo-container{
+    @apply flex justify-center;
+}
+.logo{
+    @apply w-40;
+}
+.clock{
+    @apply w-5 h-5;
+}
+.date-box{
+    @apply flex items-center shadow-lg m-5 p-1 lg:p-2 gap-x-2 rounded-md md:text-xs lg:text-base;
+}
+
+/* Index page */
+.select-box{
+    @apply bg-white text-black;
+}
+.bar{
+    @apply bg-white text-black rounded-md flex text-center items-center md:mx-3;
+}
+.searching{
+    @apply flex items-center gap-5 px-6 border-r-2 border-black;
+}
+.search-box-container{
+    @apply px-5 md:px-4;
+}
+.search-box{
+    @apply bg-white border-2 rounded p-2;
+}
+.active-users{
+    @apply flex items-center bg-white text-black rounded-lg m-3;
+}
+.user-indi{
+    @apply flex flex-col px-5 py-2 rounded-lg font-bold space-y-3;
+}
+.user-no{
+    @apply font-extrabold lg:text-xl md:text-lg;
+}
+.betting-container{
+    @apply flex m-3 rounded-md;
+}
+.betting-inner{
+    @apply flex items-center rounded-md;
+}
+.betting-head{
+    @apply flex items-center py-3 md:px-1.5 lg:px-3 h-full md:text-lg lg:text-xl md:font-bold lg:font-extrabold;
+}
+.betting-info{
+    @apply flex items-center py-3 h-full md:px-3 lg:px-6 bg-white text-black rounded-md;
+}
+.chart-container{
+    @apply flex flex-col items-center w-full max-w-screen-md p-6 pb-6 bg-white rounded-lg shadow-xl;
+}
+.chart-title{
+    @apply text-xl font-bold;
+}
+.chart-inner{
+    @apply flex items-end flex-grow w-full mt-2;
+}
+.chart-column{
+    @apply relative flex flex-col items-center flex-grow pb-5;
+}
+.chart-value{
+    @apply absolute top-0 hidden -mt-6 text-xs font-bold;
+}
+.chart-indi-bar{
+    @apply relative flex justify-center flex-grow bg-yellow-500;
+}
+.chart-value-title{
+    @apply absolute bottom-0 text-xs font-bold;
+}
+.commission{
+    @apply flex items-center bgpur m-3 rounded-md;
+}
+.ag-commission{
+    @apply flex items-center bgpur m-3 p-2 rounded-md w-48;
+}
+.user-commission{
+    @apply flex items-center bgteal m-3 p-2 rounded-md w-48;
+}
+.user-commission-profit{
+    @apply flex items-center bgteal m-3 p-2 rounded-md;
+}
+.user-chart-container{
+    @apply flex flex-col items-center md:w-2/3 lg:w-1/2 max-w-screen-md p-3 lg:p-6 m-3 bg-white rounded-lg shadow-xl;
+}
+
+
+/* Active Balance User */
+.act-user{
+    @apply flex items-center p-3 mx-3 rounded-md md:h-8 lg:h-12;
+}
+.btn-active{
+    @apply bg-yellow-500 text-white;
+}

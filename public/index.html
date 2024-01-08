@@ -3,6 +3,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Index</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
     <link rel="stylesheet" href="style.css">
 </head>
@@ -42,23 +43,24 @@
           </ul>
         
         </div>
-        <div class="drawer-content">
+        <div class="drawer-content bg-black p-2">
 
-
-            <section class="flex flex-wrap">
-                <div class="date-box">
-                    <select name="" id="" class="select-box select-sm">
-                        <option value="">3.12.2023</option>
-                    </select>
+            <section class="grid grid-cols-4">
+                <div class="date-container">
+                    <div class="date-box">
+                        <select name="" id="" class="select-box select-xs w-full">
+                            <option value="">3.12.2023</option>
+                        </select>
+                    </div>
+                    <div class="date-box">
+                        <select name="" id="" class="select-box select-xs w-full">
+                            <option value="">3.12.2023</option>
+                        </select>
+                    </div>
                 </div>
-                <div class="date-box">
-                    <select name="" id="" class="select-box select-sm">
-                        <option value="">3.12.2023</option>
-                    </select>
-                </div>
-                <div class="bar">
+                <div class="bar col-span-3">
                     <div class="searching">
-                      <span>User Tracking</span>
+                      <span class="whitespace-nowrap">User Tracking</span>
                       <span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
                         <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
                       </svg>
@@ -70,345 +72,466 @@
                 </div>
             </section>
 
-            <!-- User Section -->
-            <section class="flex flex-wrap">
-                <!-- Active Users -->
-                <div class="active-users">
-                    <div class="user-indi">
-                        <span>Active Users</span>
-                        <span class="user-no text-teal-500">50</span>
-                    </div>
-                    <div class="user-indi bgpur">
-                        <span>Non-Active Users</span>
-                        <span class="user-no">50</span>
-                    </div>
-                </div>
-
-                <!-- Active User Balance -->
-                <div class="active-users">
-                    <div class="user-indi bgpur">
-                        <span>Active Balance Users</span>
-                        <span class="user-no">50</span>
-                    </div>
-                    <div class="user-indi relative">
-                        <span>Active Balance</span>
-                        <span class="user-no">500,000</span>
-                        <span class="absolute bottom-0 right-2">
-                            <label class="swap">
-                                <input type="checkbox" />
-                                <span class="swap-on"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" /><path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" /></svg></span>
-                                <span class="swap-off"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.98 8.223A10.477 10.477 0 0 0 1.934 12C3.226 16.338 7.244 19.5 12 19.5c.993 0 1.953-.138 2.863-.395M6.228 6.228A10.451 10.451 0 0 1 12 4.5c4.756 0 8.773 3.162 10.065 7.498a10.522 10.522 0 0 1-4.293 5.774M6.228 6.228 3 3m3.228 3.228 3.65 3.65m7.894 7.894L21 21m-3.228-3.228-3.65-3.65m0 0a3 3 0 1 0-4.243-4.243m4.242 4.242L9.88 9.88" /></svg></span>
-                            </label>                             
-                        </span>
-                    </div>
-                </div>
-                
-                <!-- Betting -->
-                <div class="betting-container">
-                    <div class="betting-inner bgpur">
-                        <h2 class="betting-head">AM</h2>
-                        <div class="betting-info">
-                            <div>
-                                <span class="block font-semibold">Total Betting</span>
-                                <span class="font-semibold text-teal-500">1,500,000</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="betting-inner bgpur">
-                        <h2 class="betting-head">PM</h2>
-                        <div class="betting-info">
-                            <div>
-                                <span class="block font-semibold">Total Betting</span>
-                                <span class="font-semibold text-teal-500">1,500,000</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- 3D Betting -->
-                <div class="betting-container">
-                    <div class="betting-inner bgpur">
-                        <h2 class="betting-head">3D</h2>
-                        <div class="betting-info">
-                            <div>
-                                <span class="block font-semibold">Total Betting</span>
-                                <span class="font-semibold text-teal-500">1,500,000</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-
-            <!-- Chart Section -->
-            <section class="flex">
-                <section class="flex flex-wrap">
-                    <div class="m-3 w-[400px] bg-white p-3 rounded-md">
-                        <div class="bgteal p-3 rounded-md">
-                            <div class="flex items-center justify-around">
-                                <div class="flex flex-col gap-y-2">
-                                    <span class="font-bold">Total Deposite</span>
-                                    <span class="text-xl font-extrabold">300,000</span>
-                                    <button class="btn btn-sm bg-yellow-500 text-white">View</button>
-                                </div>
-                                <div class="flex flex-col gap-y-2">
-                                    <span class="font-bold">Total Deposite</span>
-                                    <span class="text-xl font-extrabold">300,000</span>
-                                    <button class="btn btn-sm bg-yellow-500 text-white">View</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="flex items-center justify-around py-4">
-                            <div class="flex flex-col gap-y-2">
-                                <span class="font-bold text-black">Number of Users</span>
-                                <div class="flex justify-between">
-                                    <span class="text-xl font-extrabold text-teal-500">50</span>
-                                    <span>
-                                    <label class="swap">
-                                        <input type="checkbox" />
-                                        <span class="swap-on"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                            <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" /><path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" /></svg></span>
-                                        <span class="swap-off"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                            <path stroke-linecap="round" stroke-linejoin="round" d="M3.98 8.223A10.477 10.477 0 0 0 1.934 12C3.226 16.338 7.244 19.5 12 19.5c.993 0 1.953-.138 2.863-.395M6.228 6.228A10.451 10.451 0 0 1 12 4.5c4.756 0 8.773 3.162 10.065 7.498a10.522 10.522 0 0 1-4.293 5.774M6.228 6.228 3 3m3.228 3.228 3.65 3.65m7.894 7.894L21 21m-3.228-3.228-3.65-3.65m0 0a3 3 0 1 0-4.243-4.243m4.242 4.242L9.88 9.88" /></svg></span>
-                                    </label>                             
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="flex flex-col gap-y-2">
-                                <span class="font-bold text-black">Number of Users</span>
-                                <div class="flex justify-between">
-                                    <span class="text-xl font-extrabold text-teal-500">50</span>
-                                    <span>
-                                    <label class="swap">
-                                        <input type="checkbox" />
-                                        <span class="swap-on"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                            <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" /><path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" /></svg></span>
-                                        <span class="swap-off"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                            <path stroke-linecap="round" stroke-linejoin="round" d="M3.98 8.223A10.477 10.477 0 0 0 1.934 12C3.226 16.338 7.244 19.5 12 19.5c.993 0 1.953-.138 2.863-.395M6.228 6.228A10.451 10.451 0 0 1 12 4.5c4.756 0 8.773 3.162 10.065 7.498a10.522 10.522 0 0 1-4.293 5.774M6.228 6.228 3 3m3.228 3.228 3.65 3.65m7.894 7.894L21 21m-3.228-3.228-3.65-3.65m0 0a3 3 0 1 0-4.243-4.243m4.242 4.242L9.88 9.88" /></svg></span>
-                                    </label>                             
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-    
-                        <!-- chart -->
-                        <div class="chart-container">
-                            <h2 class="chart-title">Deposite</h2>
-                            <div class="chart-inner">
-                                <div class="chart-column group">
-                                    <span class="chart-value group-hover:block">37,500</span>
-                                    <div class="flex w-5">
-                                        <div class="chart-indi-bar h-16"></div>	
-                                    </div>
-                                    <span class="chart-value-title">Jan</span>
-                                </div>
-                                <div class="chart-column group">
-                                    <span class="chart-value group-hover:block">$45,000</span>
-                                    <div class="flex w-5">
-                                        <div class="chart-indi-bar h-10"></div>	
-                                    </div>
-                                    <span class="chart-value-title">Feb</span>
-                                </div>
-                                <div class="chart-column group">
-                                    <span class="chart-value group-hover:block">37,500</span>
-                                    <div class="flex w-5">
-                                        <div class="chart-indi-bar h-16"></div>	
-                                    </div>
-                                    <span class="chart-value-title">Mar</span>
-                                </div>
-                                <div class="chart-column group">
-                                    <span class="chart-value group-hover:block">$45,000</span>
-                                    <div class="flex w-5">
-                                        <div class="chart-indi-bar h-20"></div>	
-                                    </div>
-                                    <span class="chart-value-title">Apr</span>
-                                </div>
-                                <div class="chart-column group">
-                                    <span class="chart-value group-hover:block">37,500</span>
-                                    <div class="flex w-5">
-                                        <div class="chart-indi-bar h-20"></div>	
-                                    </div>
-                                    <span class="chart-value-title">May</span>
-                                </div>
-                                <div class="chart-column group">
-                                    <span class="chart-value group-hover:block">$45,000</span>
-                                    <div class="flex w-5">
-                                        <div class="chart-indi-bar h-24"></div>	
-                                    </div>
-                                    <span class="chart-value-title">Jun</span>
-                                </div>
-                                <div class="chart-column group">
-                                    <span class="chart-value group-hover:block">37,500</span>
-                                    <div class="flex w-5">
-                                        <div class="chart-indi-bar h-14"></div>	
-                                    </div>
-                                    <span class="chart-value-title">Jul</span>
-                                </div>
-                                <div class="chart-column group">
-                                    <span class="chart-value group-hover:block">$45,000</span>
-                                    <div class="flex w-5">
-                                        <div class="chart-indi-bar h-12"></div>	
-                                    </div>
-                                    <span class="chart-value-title">Aug</span>
-                                </div>
-                                <div class="chart-column group">
-                                    <span class="chart-value group-hover:block">37,500</span>
-                                    <div class="flex w-5">
-                                        <div class="chart-indi-bar h-8"></div>	
-                                    </div>
-                                    <span class="chart-value-title">Sep</span>
-                                </div>
-                                <div class="chart-column group">
-                                    <span class="chart-value group-hover:block">$45,000</span>
-                                    <div class="flex w-5">
-                                        <div class="chart-indi-bar h-14"></div>	
-                                    </div>
-                                    <span class="chart-value-title">Oct</span>
-                                </div>
-                                <div class="chart-column group">
-                                    <span class="chart-value group-hover:block">37,500</span>
-                                    <div class="flex w-5">
-                                        <div class="chart-indi-bar h-16"></div>	
-                                    </div>
-                                    <span class="chart-value-title">Nov</span>
-                                </div>
-                                <div class="chart-column group">
-                                    <span class="chart-value group-hover:block">$45,000</span>
-                                    <div class="flex w-5">
-                                        <div class="chart-indi-bar h-28"></div>	
-                                    </div>
-                                    <span class="chart-value-title">Dec</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="chart-container">
-                            <h2 class="chart-title">Withdraw</h2>
-                            <div class="chart-inner">
-                                <div class="chart-column group">
-                                    <span class="chart-value group-hover:block">37,500</span>
-                                    <div class="flex w-5">
-                                        <div class="chart-indi-bar h-16"></div>	
-                                    </div>
-                                    <span class="chart-value-title">Jan</span>
-                                </div>
-                                <div class="chart-column group">
-                                    <span class="chart-value group-hover:block">$45,000</span>
-                                    <div class="flex w-5">
-                                        <div class="chart-indi-bar h-10"></div>	
-                                    </div>
-                                    <span class="chart-value-title">Feb</span>
-                                </div>
-                                <div class="chart-column group">
-                                    <span class="chart-value group-hover:block">37,500</span>
-                                    <div class="flex w-5">
-                                        <div class="chart-indi-bar h-16"></div>	
-                                    </div>
-                                    <span class="chart-value-title">Mar</span>
-                                </div>
-                                <div class="chart-column group">
-                                    <span class="chart-value group-hover:block">$45,000</span>
-                                    <div class="flex w-5">
-                                        <div class="chart-indi-bar h-20"></div>	
-                                    </div>
-                                    <span class="chart-value-title">Apr</span>
-                                </div>
-                                <div class="chart-column group">
-                                    <span class="chart-value group-hover:block">37,500</span>
-                                    <div class="flex w-5">
-                                        <div class="chart-indi-bar h-20"></div>	
-                                    </div>
-                                    <span class="chart-value-title">May</span>
-                                </div>
-                                <div class="chart-column group">
-                                    <span class="chart-value group-hover:block">$45,000</span>
-                                    <div class="flex w-5">
-                                        <div class="chart-indi-bar h-24"></div>	
-                                    </div>
-                                    <span class="chart-value-title">Jun</span>
-                                </div>
-                                <div class="chart-column group">
-                                    <span class="chart-value group-hover:block">37,500</span>
-                                    <div class="flex w-5">
-                                        <div class="chart-indi-bar h-14"></div>	
-                                    </div>
-                                    <span class="chart-value-title">Jul</span>
-                                </div>
-                                <div class="chart-column group">
-                                    <span class="chart-value group-hover:block">$45,000</span>
-                                    <div class="flex w-5">
-                                        <div class="chart-indi-bar h-12"></div>	
-                                    </div>
-                                    <span class="chart-value-title">Aug</span>
-                                </div>
-                                <div class="chart-column group">
-                                    <span class="chart-value group-hover:block">37,500</span>
-                                    <div class="flex w-5">
-                                        <div class="chart-indi-bar h-8"></div>	
-                                    </div>
-                                    <span class="chart-value-title">Sep</span>
-                                </div>
-                                <div class="chart-column group">
-                                    <span class="chart-value group-hover:block">$45,000</span>
-                                    <div class="flex w-5">
-                                        <div class="chart-indi-bar h-14"></div>	
-                                    </div>
-                                    <span class="chart-value-title">Oct</span>
-                                </div>
-                                <div class="chart-column group">
-                                    <span class="chart-value group-hover:block">37,500</span>
-                                    <div class="flex w-5">
-                                        <div class="chart-indi-bar h-16"></div>	
-                                    </div>
-                                    <span class="chart-value-title">Nov</span>
-                                </div>
-                                <div class="chart-column group">
-                                    <span class="chart-value group-hover:block">$45,000</span>
-                                    <div class="flex w-5">
-                                        <div class="chart-indi-bar h-28"></div>	
-                                    </div>
-                                    <span class="chart-value-title">Dec</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                </section>
-    
-    
-                <!-- Refrees section -->
-    
-                <section class="flex flex-wrap">
-    
-                    <!-- Active Refrees -->
+            
+            <section class="grid grid-cols-4 gap-x-1 mt-3">
+                <!-- First Column -->
+                <section>
+                    <!-- Active Users -->
                     <div class="active-users">
-                        <div class="user-indi bgteal">
-                            <span>Active Balance Refrees</span>
+                        <div class="user-indi bg-white">
+                            <span class="text-xs">Active Users</span>
+                            <span class="user-no text-teal-500">50</span>
+                        </div>
+                        <div class="user-indi bgpur">
+                            <span class="text-xs">Non-Active Users</span>
+                            <span class="user-no">50</span>
+                        </div>
+                    </div>
+                    <div class="flex flex-wrap p-3 bg-white rounded-md mt-3">
+                        <div class="w-full bg-white rounded-md">
+                            <div class="bgteal py-2 rounded-md">
+                                <div class="total-d-container">
+                                    <div class="total-d">
+                                        <span class="font-bold">Total Deposite</span>
+                                        <span class="font-extrabold">300,000</span>
+                                        <button class="btn btn-xs bg-yellow-500 text-white">View</button>
+                                    </div>
+                                    <div class="total-d">
+                                        <span class="font-bold">Total Deposite</span>
+                                        <span class="font-extrabold">300,000</span>
+                                        <button class="btn btn-xs bg-yellow-500 text-white">View</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="num-u-container">
+                                <div class="num-u">
+                                    <span class="font-bold text-black">Number of Users</span>
+                                    <div class="flex items-center md:justify-evenly">
+                                        <span class="text-xl font-extrabold text-teal-500">50</span>
+                                        <span>
+                                            <label class="swap pl-6">
+                                                <input type="checkbox" />
+                                                <span class="swap-off">
+                                                    <i class="fa-solid fa-eye w-4 h-4 text-[#F6921E]"></i>
+                                                </span>
+                                                <span class="swap-on">
+                                                    <i class="fa-solid fa-eye-slash w-4 h-4 text-[#F6921E]"></i>
+                                                </span>
+                                            </label>                              
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="num-u">
+                                    <span class="font-bold text-black">Number of Users</span>
+                                    <div class="flex items-center md:justify-evenly">
+                                        <span class="text-xl font-extrabold text-teal-500">50</span>
+                                        <span>
+                                            <label class="swap pl-6">
+                                                <input type="checkbox" />
+                                                <span class="swap-off">
+                                                    <i class="fa-solid fa-eye w-4 h-4 text-[#F6921E]"></i>
+                                                </span>
+                                                <span class="swap-on">
+                                                    <i class="fa-solid fa-eye-slash w-4 h-4 text-[#F6921E]"></i>
+                                                </span>
+                                            </label>                                
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <!-- chart -->
+                            <div class="chart-container">
+                                <h2 class="chart-title">Deposite</h2>
+                                <div class="chart-inner">
+                                    <div class="chart-column group">
+                                        <span class="chart-value group-hover:block">37,500</span>
+                                        <div class="chart-indi-width">
+                                            <div class="chart-indi-bar h-16"></div>	
+                                        </div>
+                                        <span class="chart-value-title">Jan</span>
+                                    </div>
+                                    <div class="chart-column group">
+                                        <span class="chart-value group-hover:block">$45,000</span>
+                                        <div class="chart-indi-width">
+                                            <div class="chart-indi-bar h-10"></div>	
+                                        </div>
+                                        <span class="chart-value-title">Feb</span>
+                                    </div>
+                                    <div class="chart-column group">
+                                        <span class="chart-value group-hover:block">37,500</span>
+                                        <div class="chart-indi-width">
+                                            <div class="chart-indi-bar h-16"></div>	
+                                        </div>
+                                        <span class="chart-value-title">Mar</span>
+                                    </div>
+                                    <div class="chart-column group">
+                                        <span class="chart-value group-hover:block">$45,000</span>
+                                        <div class="chart-indi-width">
+                                            <div class="chart-indi-bar h-20"></div>	
+                                        </div>
+                                        <span class="chart-value-title">Apr</span>
+                                    </div>
+                                    <div class="chart-column group">
+                                        <span class="chart-value group-hover:block">37,500</span>
+                                        <div class="chart-indi-width">
+                                            <div class="chart-indi-bar h-20"></div>	
+                                        </div>
+                                        <span class="chart-value-title">May</span>
+                                    </div>
+                                    <div class="chart-column group">
+                                        <span class="chart-value group-hover:block">$45,000</span>
+                                        <div class="chart-indi-width">
+                                            <div class="chart-indi-bar h-24"></div>	
+                                        </div>
+                                        <span class="chart-value-title">Jun</span>
+                                    </div>
+                                    <div class="chart-column group">
+                                        <span class="chart-value group-hover:block">37,500</span>
+                                        <div class="chart-indi-width">
+                                            <div class="chart-indi-bar h-14"></div>	
+                                        </div>
+                                        <span class="chart-value-title">Jul</span>
+                                    </div>
+                                    <div class="chart-column group">
+                                        <span class="chart-value group-hover:block">$45,000</span>
+                                        <div class="chart-indi-width">
+                                            <div class="chart-indi-bar h-12"></div>	
+                                        </div>
+                                        <span class="chart-value-title">Aug</span>
+                                    </div>
+                                    <div class="chart-column group">
+                                        <span class="chart-value group-hover:block">37,500</span>
+                                        <div class="chart-indi-width">
+                                            <div class="chart-indi-bar h-8"></div>	
+                                        </div>
+                                        <span class="chart-value-title">Sep</span>
+                                    </div>
+                                    <div class="chart-column group">
+                                        <span class="chart-value group-hover:block">$45,000</span>
+                                        <div class="chart-indi-width">
+                                            <div class="chart-indi-bar h-14"></div>	
+                                        </div>
+                                        <span class="chart-value-title">Oct</span>
+                                    </div>
+                                    <div class="chart-column group">
+                                        <span class="chart-value group-hover:block">37,500</span>
+                                        <div class="chart-indi-width">
+                                            <div class="chart-indi-bar h-16"></div>	
+                                        </div>
+                                        <span class="chart-value-title">Nov</span>
+                                    </div>
+                                    <div class="chart-column group">
+                                        <span class="chart-value group-hover:block">$45,000</span>
+                                        <div class="chart-indi-width">
+                                            <div class="chart-indi-bar h-28"></div>	
+                                        </div>
+                                        <span class="chart-value-title">Dec</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="chart-container">
+                                <h2 class="chart-title">Withdraw</h2>
+                                <div class="chart-inner">
+                                    <div class="chart-column group">
+                                        <span class="chart-value group-hover:block">37,500</span>
+                                        <div class="chart-indi-width">
+                                            <div class="chart-indi-bar h-16"></div>	
+                                        </div>
+                                        <span class="chart-value-title">Jan</span>
+                                    </div>
+                                    <div class="chart-column group">
+                                        <span class="chart-value group-hover:block">$45,000</span>
+                                        <div class="chart-indi-width">
+                                            <div class="chart-indi-bar h-10"></div>	
+                                        </div>
+                                        <span class="chart-value-title">Feb</span>
+                                    </div>
+                                    <div class="chart-column group">
+                                        <span class="chart-value group-hover:block">37,500</span>
+                                        <div class="chart-indi-width">
+                                            <div class="chart-indi-bar h-16"></div>	
+                                        </div>
+                                        <span class="chart-value-title">Mar</span>
+                                    </div>
+                                    <div class="chart-column group">
+                                        <span class="chart-value group-hover:block">$45,000</span>
+                                        <div class="chart-indi-width">
+                                            <div class="chart-indi-bar h-20"></div>	
+                                        </div>
+                                        <span class="chart-value-title">Apr</span>
+                                    </div>
+                                    <div class="chart-column group">
+                                        <span class="chart-value group-hover:block">37,500</span>
+                                        <div class="chart-indi-width">
+                                            <div class="chart-indi-bar h-20"></div>	
+                                        </div>
+                                        <span class="chart-value-title">May</span>
+                                    </div>
+                                    <div class="chart-column group">
+                                        <span class="chart-value group-hover:block">$45,000</span>
+                                        <div class="chart-indi-width">
+                                            <div class="chart-indi-bar h-24"></div>	
+                                        </div>
+                                        <span class="chart-value-title">Jun</span>
+                                    </div>
+                                    <div class="chart-column group">
+                                        <span class="chart-value group-hover:block">37,500</span>
+                                        <div class="chart-indi-width">
+                                            <div class="chart-indi-bar h-14"></div>	
+                                        </div>
+                                        <span class="chart-value-title">Jul</span>
+                                    </div>
+                                    <div class="chart-column group">
+                                        <span class="chart-value group-hover:block">$45,000</span>
+                                        <div class="chart-indi-width">
+                                            <div class="chart-indi-bar h-12"></div>	
+                                        </div>
+                                        <span class="chart-value-title">Aug</span>
+                                    </div>
+                                    <div class="chart-column group">
+                                        <span class="chart-value group-hover:block">37,500</span>
+                                        <div class="chart-indi-width">
+                                            <div class="chart-indi-bar h-8"></div>	
+                                        </div>
+                                        <span class="chart-value-title">Sep</span>
+                                    </div>
+                                    <div class="chart-column group">
+                                        <span class="chart-value group-hover:block">$45,000</span>
+                                        <div class="chart-indi-width">
+                                            <div class="chart-indi-bar h-14"></div>	
+                                        </div>
+                                        <span class="chart-value-title">Oct</span>
+                                    </div>
+                                    <div class="chart-column group">
+                                        <span class="chart-value group-hover:block">37,500</span>
+                                        <div class="chart-indi-width">
+                                            <div class="chart-indi-bar h-16"></div>	
+                                        </div>
+                                        <span class="chart-value-title">Nov</span>
+                                    </div>
+                                    <div class="chart-column group">
+                                        <span class="chart-value group-hover:block">$45,000</span>
+                                        <div class="chart-indi-width">
+                                            <div class="chart-indi-bar h-28"></div>	
+                                        </div>
+                                        <span class="chart-value-title">Dec</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Second Column -->
+                <section>
+                    <!-- Active User Balance -->
+                    <div class="active-users">
+                        <div class="user-indi bgpur">
+                            <span class="text-[9px] whitespace-nowrap">Active Balance Users &nbsp; &nbsp;</span>
                             <span class="user-no">50</span>
                         </div>
                         <div class="user-indi relative">
-                            <span>Active Balance</span>
+                            <span class="text-[9px]">Active Balance</span>
                             <span class="user-no">500,000</span>
-                            <span class="absolute bottom-0 right-2">
+                            <span class="absolute bottom-2.5 right-2">
                                 <label class="swap">
                                     <input type="checkbox" />
-                                    <span class="swap-on"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" /><path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" /></svg></span>
-                                    <span class="swap-off"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.98 8.223A10.477 10.477 0 0 0 1.934 12C3.226 16.338 7.244 19.5 12 19.5c.993 0 1.953-.138 2.863-.395M6.228 6.228A10.451 10.451 0 0 1 12 4.5c4.756 0 8.773 3.162 10.065 7.498a10.522 10.522 0 0 1-4.293 5.774M6.228 6.228 3 3m3.228 3.228 3.65 3.65m7.894 7.894L21 21m-3.228-3.228-3.65-3.65m0 0a3 3 0 1 0-4.243-4.243m4.242 4.242L9.88 9.88" /></svg></span>
+                                    <span class="swap-off">
+                                        <i class="fa-solid fa-eye w-4 h-4 text-[#F6921E]"></i>
+                                    </span>
+                                    <span class="swap-on">
+                                        <i class="fa-solid fa-eye-slash w-4 h-4 text-[#F6921E]"></i>
+                                    </span>
+                                </label>
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- Active Refrees -->
+                    <div class="active-users mt-3">
+                        <div class="user-indi bgteal">
+                            <span class="text-[9px] whitespace-nowrap">Active Balance Refrees</span>
+                            <span class="user-no">50</span>
+                        </div>
+                        <div class="user-indi relative">
+                            <span class="text-[9px]">Active Balance</span>
+                            <span class="user-no">500,000</span>
+                            <span class="absolute bottom-1 right-2">
+                                <label class="swap">
+                                    <input type="checkbox" />
+                                    <span class="swap-off">
+                                        <i class="fa-solid fa-eye w-4 h-4 text-[#F6921E]"></i>
+                                    </span>
+                                    <span class="swap-on">
+                                        <i class="fa-solid fa-eye-slash w-4 h-4 text-[#F6921E]"></i>
+                                    </span>
                                 </label>                             
                             </span>
                         </div>
                     </div>
-    
+
+                    <!-- Total Commission Fee -->
+                    <div class="commission mt-3">
+                        <div class="commission-inner">
+                            <div class="flex flex-col px-3 md:py-0.5 lg:py-0">
+                                <span class="font-semibold md:text-xs lg:text-sm">Total Commission Fee</span>
+                                <span class="font-extrabold lg:text-xl">3,000,000</span>
+                            </div>
+                            <span>
+                                <img src="../assets/dummy-image-square.jpg" alt="" class="w-16 rounded-md">
+                            </span>
+                        </div>
+                    </div>
+
+                     <!-- AM Commission -->
+                    <div class="w-full md:mt-[5.3rem] lg:mt-3">
+                            <div class="user-chart-container">
+                                <h2 class="chart-title">AM Commission</h2>
+                                <div class="chart-inner">
+                                    <div class="chart-column group">
+                                        <span class="chart-value group-hover:block">37,500</span>
+                                        <div class="chart-indi-width justify-center">
+                                            <div class="h-8">
+                                                <div class="indi-circle"></div>
+                                            </div>	
+                                        </div>
+                                        <span class="chart-value-title text-white">Jan</span>
+                                    </div>
+                                    <div class="chart-column group">
+                                        <span class="chart-value group-hover:block">37,500</span>
+                                        <div class="chart-indi-width justify-center">
+                                            <div class="h-7">
+                                                <div class="indi-circle"></div>
+                                            </div>	
+                                        </div>
+                                        <span class="chart-value-title text-white">Feb</span>
+                                    </div>
+                                    <div class="chart-column group">
+                                        <span class="chart-value group-hover:block">37,500</span>
+                                        <div class="chart-indi-width justify-center">
+                                            <div class="h-3">
+                                                <div class="indi-circle"></div>
+                                            </div>	
+                                        </div>
+                                        <span class="chart-value-title text-white">Mar</span>
+                                    </div>
+                                    <div class="chart-column group">
+                                        <span class="chart-value group-hover:block">37,500</span>
+                                        <div class="chart-indi-width justify-center">
+                                            <div class="h-16">
+                                                <div class="indi-circle"></div>
+                                            </div>	
+                                        </div>
+                                        <span class="chart-value-title text-white">Apr</span>
+                                    </div>
+                                    <div class="chart-column group">
+                                        <span class="chart-value group-hover:block">37,500</span>
+                                        <div class="chart-indi-width justify-center">
+                                            <div class="h-8">
+                                                <div class="indi-circle"></div>
+                                            </div>	
+                                        </div>
+                                        <span class="chart-value-title text-white">May</span>
+                                    </div>
+                                    <div class="chart-column group">
+                                        <span class="chart-value group-hover:block">37,500</span>
+                                        <div class="chart-indi-width justify-center">
+                                            <div class="h-9">
+                                                <div class="indi-circle"></div>
+                                            </div>	
+                                        </div>
+                                        <span class="chart-value-title text-white">Jun</span>
+                                    </div>
+                                    <div class="chart-column group">
+                                        <span class="chart-value group-hover:block">37,500</span>
+                                        <div class="chart-indi-width justify-center">
+                                            <div class="h-4">
+                                                <div class="indi-circle"></div>
+                                            </div>	
+                                        </div>
+                                        <span class="chart-value-title text-white">Jul</span>
+                                    </div>
+                                    <div class="chart-column group">
+                                        <span class="chart-value group-hover:block">37,500</span>
+                                        <div class="chart-indi-width justify-center">
+                                            <div class="h-16">
+                                                <div class="indi-circle"></div>
+                                            </div>	
+                                        </div>
+                                        <span class="chart-value-title text-white">Aug</span>
+                                    </div>
+                                    <div class="chart-column group">
+                                        <span class="chart-value group-hover:block">37,500</span>
+                                        <div class="chart-indi-width justify-center">
+                                            <div class="h-7">
+                                                <div class="indi-circle"></div>
+                                            </div>	
+                                        </div>
+                                        <span class="chart-value-title text-white">Sep</span>
+                                    </div>
+                                    <div class="chart-column group">
+                                        <span class="chart-value group-hover:block">37,500</span>
+                                        <div class="chart-indi-width justify-center">
+                                            <div class="h-16">
+                                                <div class="indi-circle"></div>
+                                            </div>	
+                                        </div>
+                                        <span class="chart-value-title text-white">Oct</span>
+                                    </div>
+                                    <div class="chart-column group">
+                                        <span class="chart-value group-hover:block">37,500</span>
+                                        <div class="chart-indi-width justify-center">
+                                            <div class="h-10">
+                                                <div class="indi-circle"></div>
+                                            </div>	
+                                        </div>
+                                        <span class="chart-value-title text-white">Nov</span>
+                                    </div>
+                                    <div class="chart-column group">
+                                        <span class="chart-value group-hover:block">37,500</span>
+                                        <div class="chart-indi-width justify-center">
+                                            <div class="h-12">
+                                                <div class="indi-circle"></div>
+                                            </div>	
+                                        </div>
+                                        <span class="chart-value-title text-white">Dec</span>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </section>
+                
+
+                <!-- Third Column -->
+                <section>
                     <!-- Betting -->
                     <div class="betting-container">
+                        <div class="betting-inner bgpur">
+                            <h2 class="betting-head">AM</h2>
+                            <div class="betting-info">
+                                <div>
+                                    <span class="block font-semibold text-xs whitespace-nowrap pb-1">Total Betting</span>
+                                    <span class="font-semibold text-teal-500">1,500,000</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="betting-inner bgpur">
+                            <h2 class="betting-head">PM</h2>
+                            <div class="betting-info">
+                                <div>
+                                    <span class="block font-semibold text-xs whitespace-nowrap pb-1">Total Betting</span>
+                                    <span class="font-semibold text-teal-500">1,500,000</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="betting-container mt-3">
                         <div class="betting-inner bgteal">
                             <h2 class="betting-head">AM</h2>
                             <div class="betting-info">
                                 <div>
-                                    <span class="block font-semibold">Total Betting</span>
+                                    <span class="block font-semibold text-xs whitespace-nowrap pb-1">Total Betting</span>
                                     <span class="font-semibold text-teal-500">1,500,000</span>
                                 </div>
                             </div>
@@ -417,410 +540,392 @@
                             <h2 class="betting-head">PM</h2>
                             <div class="betting-info">
                                 <div>
+                                    <span class="block font-semibold text-xs whitespace-nowrap pb-1">Total Betting</span>
+                                    <span class="font-semibold text-teal-500">1,500,000</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="user-commission mt-3">
+                        <div class="user-commission-inner">
+                            <div class="user-commission-block"></div>
+                            <div class="absolute flex flex-col left-2.5 py-2">
+                                <span class="font-semibold">AM Commission</span>
+                                <span class="font-extrabold lg:text-lg">3,000,000</span>
+                            </div>
+                        </div>
+                        <div class="user-commission-inner">
+                            <div class="user-commission-block"></div>
+                            <div class="absolute flex flex-col left-2.5 py-2">
+                                <span class="font-semibold">PM Commission</span>
+                                <span class="font-extrabold lg:text-lg">3,000,000</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full md:mt-[0.45rem] lg:mt-5">
+                        <div class="user-chart-container">
+                            <h2 class="chart-title">PM Commission</h2>
+                            <div class="chart-inner">
+                                <div class="chart-column group">
+                                    <span class="chart-value group-hover:block">37,500</span>
+                                    <div class="chart-indi-width justify-center">
+                                        <div class="h-8">
+                                            <div class="indi-circle"></div>
+                                        </div>	
+                                    </div>
+                                    <span class="chart-value-title text-white">Jan</span>
+                                </div>
+                                <div class="chart-column group">
+                                    <span class="chart-value group-hover:block">37,500</span>
+                                    <div class="chart-indi-width justify-center">
+                                        <div class="h-7">
+                                            <div class="indi-circle"></div>
+                                        </div>	
+                                    </div>
+                                    <span class="chart-value-title text-white">Feb</span>
+                                </div>
+                                <div class="chart-column group">
+                                    <span class="chart-value group-hover:block">37,500</span>
+                                    <div class="chart-indi-width justify-center">
+                                        <div class="h-3">
+                                            <div class="indi-circle"></div>
+                                        </div>	
+                                    </div>
+                                    <span class="chart-value-title text-white">Mar</span>
+                                </div>
+                                <div class="chart-column group">
+                                    <span class="chart-value group-hover:block">37,500</span>
+                                    <div class="chart-indi-width justify-center">
+                                        <div class="h-16">
+                                            <div class="indi-circle"></div>
+                                        </div>	
+                                    </div>
+                                    <span class="chart-value-title text-white">Apr</span>
+                                </div>
+                                <div class="chart-column group">
+                                    <span class="chart-value group-hover:block">37,500</span>
+                                    <div class="chart-indi-width justify-center">
+                                        <div class="h-8">
+                                            <div class="indi-circle"></div>
+                                        </div>	
+                                    </div>
+                                    <span class="chart-value-title text-white">May</span>
+                                </div>
+                                <div class="chart-column group">
+                                    <span class="chart-value group-hover:block">37,500</span>
+                                    <div class="chart-indi-width justify-center">
+                                        <div class="h-9">
+                                            <div class="indi-circle"></div>
+                                        </div>	
+                                    </div>
+                                    <span class="chart-value-title text-white">Jun</span>
+                                </div>
+                                <div class="chart-column group">
+                                    <span class="chart-value group-hover:block">37,500</span>
+                                    <div class="chart-indi-width justify-center">
+                                        <div class="h-4">
+                                            <div class="indi-circle"></div>
+                                        </div>	
+                                    </div>
+                                    <span class="chart-value-title text-white">Jul</span>
+                                </div>
+                                <div class="chart-column group">
+                                    <span class="chart-value group-hover:block">37,500</span>
+                                    <div class="chart-indi-width justify-center">
+                                        <div class="h-16">
+                                            <div class="indi-circle"></div>
+                                        </div>	
+                                    </div>
+                                    <span class="chart-value-title text-white">Aug</span>
+                                </div>
+                                <div class="chart-column group">
+                                    <span class="chart-value group-hover:block">37,500</span>
+                                    <div class="chart-indi-width justify-center">
+                                        <div class="h-7">
+                                            <div class="indi-circle"></div>
+                                        </div>	
+                                    </div>
+                                    <span class="chart-value-title text-white">Sep</span>
+                                </div>
+                                <div class="chart-column group">
+                                    <span class="chart-value group-hover:block">37,500</span>
+                                    <div class="chart-indi-width justify-center">
+                                        <div class="h-16">
+                                            <div class="indi-circle"></div>
+                                        </div>	
+                                    </div>
+                                    <span class="chart-value-title text-white">Oct</span>
+                                </div>
+                                <div class="chart-column group">
+                                    <span class="chart-value group-hover:block">37,500</span>
+                                    <div class="chart-indi-width justify-center">
+                                        <div class="h-10">
+                                            <div class="indi-circle"></div>
+                                        </div>	
+                                    </div>
+                                    <span class="chart-value-title text-white">Nov</span>
+                                </div>
+                                <div class="chart-column group">
+                                    <span class="chart-value group-hover:block">37,500</span>
+                                    <div class="chart-indi-width justify-center">
+                                        <div class="h-12">
+                                            <div class="indi-circle"></div>
+                                        </div>	
+                                    </div>
+                                    <span class="chart-value-title text-white">Dec</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Fourth Column -->
+                <section class="">
+                    <!-- 3D Betting -->
+                    <div class="betting-container">
+                        <div class="d3-betting-inner bgpur">
+                            <div class="px-1 text-white">
+                                <h2 class="betting-head">3D</h2>
+                            </div>
+                            <div class="d3-info">
+                                <div>
                                     <span class="block font-semibold">Total Betting</span>
                                     <span class="font-semibold text-teal-500">1,500,000</span>
                                 </div>
                             </div>
                         </div>
                     </div>
-    
-                    <!-- 3D Betting -->
-                    <div class="betting-container">
-                        <div class="betting-inner bgteal">
-                            <h2 class="betting-head">3D</h2>
-                            <div class="betting-info relative">
-                                <div>
-                                    <span class="block font-semibold">Total Betting</span>
+                    <div class="betting-container mt-3">
+                        <div class="d3-betting-inner bgteal">
+                            <div class="px-1 text-white">
+                                <h2 class="betting-head">3D</h2>
+                            </div>
+                            <div class="d3-info">
+                                <div class="relative">
+                                    <span class="block font-semibold">Bet Share</span>
                                     <span class="font-semibold text-teal-500">1,500,000</span>
-                                    <span class="absolute bottom-0 right-2">
+                                    <span class="absolute -bottom-1 right-1">
                                         <label class="swap">
                                             <input type="checkbox" />
-                                            <span class="swap-on"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                                <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" /><path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" /></svg></span>
-                                            <span class="swap-off"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                                <path stroke-linecap="round" stroke-linejoin="round" d="M3.98 8.223A10.477 10.477 0 0 0 1.934 12C3.226 16.338 7.244 19.5 12 19.5c.993 0 1.953-.138 2.863-.395M6.228 6.228A10.451 10.451 0 0 1 12 4.5c4.756 0 8.773 3.162 10.065 7.498a10.522 10.522 0 0 1-4.293 5.774M6.228 6.228 3 3m3.228 3.228 3.65 3.65m7.894 7.894L21 21m-3.228-3.228-3.65-3.65m0 0a3 3 0 1 0-4.243-4.243m4.242 4.242L9.88 9.88" /></svg></span>
-                                        </label>                             
+                                            <span class="swap-off">
+                                                <i class="fa-solid fa-eye w-4 h-4 text-[#F6921E]"></i>
+                                            </span>
+                                            <span class="swap-on">
+                                                <i class="fa-solid fa-eye-slash w-4 h-4 text-[#F6921E]"></i>
+                                            </span>
+                                        </label>
                                     </span>
                                 </div>
                             </div>
                         </div>
                     </div>
-    
-                    <!-- Total Commission Fee -->
-                    <div class="commission">
-                        <div class="commission-inner">
-                            <div class="flex flex-col px-5">
-                                <span class="font-semibold">Total Commission Fee</span>
-                                <span class="font-extrabold text-xl">3,000,000</span>
+                    <div class="user-commission mt-3">
+                        <div class="user-commission-inner">
+                            <div class="user-commission-block"></div>
+                            <div class="absolute flex flex-col left-2.5 py-2">
+                                <span class="font-semibold">3D Commission</span>
+                                <span class="font-extrabold lg:text-lg">3,000,000</span>
                             </div>
-                            <span>
-                                <img src="../assets/dummy-image-square.jpg" alt="" class="w-20 rounded-md">
-                            </span>
                         </div>
                     </div>
-                    <div class="ag-commission">
-                        <div class="ag-commission-inner">
-                            <span class="fonag-commission-inner">Bonus</span>
-                            <span class="font-extrabold text-xl">3,000,000</span>
-                        </div>
-                    </div>
-                    <div class="ag-commission">
-                        <div class="ag-commission-inner">
-                            <span class="font-semibold text-lg">Referral</span>
-                            <span class="font-extrabold text-xl">3,000,000</span>
-                        </div>
-                    </div>
-                    <div class="ag-commission">
-                        <div class="ag-commission-inner">
-                            <span class="font-semibold text-lg">Cash Agents</span>
-                            <span class="font-extrabold text-xl">3,000,000</span>
-                        </div>
-                    </div>
-                    <div class="ag-commission">
-                        <div class="ag-commission-inner">
-                            <span class="font-semibold text-lg">Betting Agents</span>
-                            <span class="font-extrabold text-xl">3,000,000</span>
-                        </div>
-                    </div>
-    
-                    <!-- User -->
-                    <div class="user-commission">
-                        <div class="user-commission-inner">
-                            <span class="font-semibold text-lg">AM Commission</span>
-                            <span class="font-extrabold text-xl">3,000,000</span>
-                        </div>
-                    </div>
-                    <div class="user-commission">
-                        <div class="user-commission-inner">
-                            <span class="font-semibold text-lg">PM Commission</span>
-                            <span class="font-extrabold text-xl">3,000,000</span>
-                        </div>
-                    </div>
-                    <div class="user-commission">
-                        <div class="user-commission-inner">
-                            <span class="font-semibold text-lg">3D Commission</span>
-                            <span class="font-extrabold text-xl">3,000,000</span>
-                        </div>
-                    </div>
-                    <div class="user-commission-profit">
-                        <div class="user-commission-inner">
-                            <span class="font-semibold">Payable to Cash Agent</span>
-                            <span class="font-extrabold text-xl">-500,000</span>
-                        </div>
-                    </div>
-                    <div class="user-commission-profit">
-                        <div class="user-commission-inner">
-                            <span class="font-semibold">Gross Profit</span>
-                            <span class="font-extrabold text-xl">+40,000</span>
-                        </div>
-                    </div>
-                    <div class="user-commission-profit">
-                        <div class="user-commission-inner">
-                            <span class="font-semibold">Net Profit / Net lost</span>
-                            <span class="font-extrabold text-xl">+40,000</span>
+                    <div class="w-full md:mt-52 lg:mt-5">
+                        <div class="user-chart-container">
+                            <h2 class="chart-title">3D Commission</h2>
+                            <div class="chart-inner">
+                                <div class="chart-column group">
+                                    <span class="chart-value group-hover:block">37,500</span>
+                                    <div class="chart-indi-width justify-center">
+                                        <div class="h-8">
+                                            <div class="indi-circle"></div>
+                                        </div>	
+                                    </div>
+                                    <span class="chart-value-title text-white">Jan</span>
+                                </div>
+                                <div class="chart-column group">
+                                    <span class="chart-value group-hover:block">37,500</span>
+                                    <div class="chart-indi-width justify-center">
+                                        <div class="h-7">
+                                            <div class="indi-circle"></div>
+                                        </div>	
+                                    </div>
+                                    <span class="chart-value-title text-white">Feb</span>
+                                </div>
+                                <div class="chart-column group">
+                                    <span class="chart-value group-hover:block">37,500</span>
+                                    <div class="chart-indi-width justify-center">
+                                        <div class="h-3">
+                                            <div class="indi-circle"></div>
+                                        </div>	
+                                    </div>
+                                    <span class="chart-value-title text-white">Mar</span>
+                                </div>
+                                <div class="chart-column group">
+                                    <span class="chart-value group-hover:block">37,500</span>
+                                    <div class="chart-indi-width justify-center">
+                                        <div class="h-16">
+                                            <div class="indi-circle"></div>
+                                        </div>	
+                                    </div>
+                                    <span class="chart-value-title text-white">Apr</span>
+                                </div>
+                                <div class="chart-column group">
+                                    <span class="chart-value group-hover:block">37,500</span>
+                                    <div class="chart-indi-width justify-center">
+                                        <div class="h-8">
+                                            <div class="indi-circle"></div>
+                                        </div>	
+                                    </div>
+                                    <span class="chart-value-title text-white">May</span>
+                                </div>
+                                <div class="chart-column group">
+                                    <span class="chart-value group-hover:block">37,500</span>
+                                    <div class="chart-indi-width justify-center">
+                                        <div class="h-9">
+                                            <div class="indi-circle"></div>
+                                        </div>	
+                                    </div>
+                                    <span class="chart-value-title text-white">Jun</span>
+                                </div>
+                                <div class="chart-column group">
+                                    <span class="chart-value group-hover:block">37,500</span>
+                                    <div class="chart-indi-width justify-center">
+                                        <div class="h-4">
+                                            <div class="indi-circle"></div>
+                                        </div>	
+                                    </div>
+                                    <span class="chart-value-title text-white">Jul</span>
+                                </div>
+                                <div class="chart-column group">
+                                    <span class="chart-value group-hover:block">37,500</span>
+                                    <div class="chart-indi-width justify-center">
+                                        <div class="h-16">
+                                            <div class="indi-circle"></div>
+                                        </div>	
+                                    </div>
+                                    <span class="chart-value-title text-white">Aug</span>
+                                </div>
+                                <div class="chart-column group">
+                                    <span class="chart-value group-hover:block">37,500</span>
+                                    <div class="chart-indi-width justify-center">
+                                        <div class="h-7">
+                                            <div class="indi-circle"></div>
+                                        </div>	
+                                    </div>
+                                    <span class="chart-value-title text-white">Sep</span>
+                                </div>
+                                <div class="chart-column group">
+                                    <span class="chart-value group-hover:block">37,500</span>
+                                    <div class="chart-indi-width justify-center">
+                                        <div class="h-16">
+                                            <div class="indi-circle"></div>
+                                        </div>	
+                                    </div>
+                                    <span class="chart-value-title text-white">Oct</span>
+                                </div>
+                                <div class="chart-column group">
+                                    <span class="chart-value group-hover:block">37,500</span>
+                                    <div class="chart-indi-width justify-center">
+                                        <div class="h-10">
+                                            <div class="indi-circle"></div>
+                                        </div>	
+                                    </div>
+                                    <span class="chart-value-title text-white">Nov</span>
+                                </div>
+                                <div class="chart-column group">
+                                    <span class="chart-value group-hover:block">37,500</span>
+                                    <div class="chart-indi-width justify-center">
+                                        <div class="h-12">
+                                            <div class="indi-circle"></div>
+                                        </div>	
+                                    </div>
+                                    <span class="chart-value-title text-white">Dec</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </section>
+                
+                
             </section>
 
-            <!-- User Chart -->
-            <section class="flex flex-wrap">
+            
 
-                <!-- AM Commission -->
-                <div class="w-full">
-                    <div class="user-chart-container">
-                        <h2 class="chart-title">AM Commission</h2>
-                        <div class="chart-inner">
-                            <div class="chart-column group">
-                                <span class="chart-value group-hover:block">37,500</span>
-                                <div class="flex w-5 justify-center">
-                                    <div class="h-16">
-                                        <div class="w-2 h-2 bg-black rounded-md"></div>
-                                    </div>	
+
+
+
+            <section class="grid grid-cols-4">
+                <div></div>
+                <div class="col-span-3">
+                    <div class="grid grid-cols-9 gap-x-2 items-center">
+                        <div class="commission-2">
+                            <div class="commission-inner">
+                                <div class="flex flex-col px-3 md:py-0.5 lg:py-0">
+                                    <span class="font-semibold md:text-xs lg:text-sm">Total Commission Fee</span>
+                                    <span class="font-extrabold lg:text-xl">3,000,000</span>
                                 </div>
-                                <span class="chart-value-title">Jan</span>
+                                <span>
+                                    <img src="../assets/dummy-image-square.jpg" alt="" class="w-16 rounded-md">
+                                </span>
                             </div>
-                            <div class="chart-column group">
-                                <span class="chart-value group-hover:block">37,500</span>
-                                <div class="flex w-5 justify-center">
-                                    <div class="h-16">
-                                        <div class="w-2 h-2 bg-black rounded-md"></div>
-                                    </div>	
-                                </div>
-                                <span class="chart-value-title">Jan</span>
+                        </div>
+                        <div class="ag-commission col-span-2">
+                            <div class="ag-commission-inner">
+                                <span class="font-bold">Bonus</span>
+                                <span class="font-extrabold lg:text-xl">3,000,000</span>
                             </div>
-                            <div class="chart-column group">
-                                <span class="chart-value group-hover:block">37,500</span>
-                                <div class="flex w-5 justify-center">
-                                    <div class="h-16">
-                                        <div class="w-2 h-2 bg-black rounded-md"></div>
-                                    </div>	
-                                </div>
-                                <span class="chart-value-title">Jan</span>
+                        </div>
+                        <div class="user-commission-profit col-span-2">
+                            <div class="user-comm-info-2">
+                                <span class="font-semibold text-xs">Payable to Cash Agent</span>
+                                <span class="font-extrabold text-xs lg:text-lg">-500,000</span>
                             </div>
-                            <div class="chart-column group">
-                                <span class="chart-value group-hover:block">37,500</span>
-                                <div class="flex w-5 justify-center">
-                                    <div class="h-16">
-                                        <div class="w-2 h-2 bg-black rounded-md"></div>
-                                    </div>	
-                                </div>
-                                <span class="chart-value-title">Jan</span>
-                            </div>
-                            <div class="chart-column group">
-                                <span class="chart-value group-hover:block">37,500</span>
-                                <div class="flex w-5 justify-center">
-                                    <div class="h-16">
-                                        <div class="w-2 h-2 bg-black rounded-md"></div>
-                                    </div>	
-                                </div>
-                                <span class="chart-value-title">Jan</span>
-                            </div>
-                            <div class="chart-column group">
-                                <span class="chart-value group-hover:block">37,500</span>
-                                <div class="flex w-5 justify-center">
-                                    <div class="h-16">
-                                        <div class="w-2 h-2 bg-black rounded-md"></div>
-                                    </div>	
-                                </div>
-                                <span class="chart-value-title">Jan</span>
-                            </div>
-                            <div class="chart-column group">
-                                <span class="chart-value group-hover:block">37,500</span>
-                                <div class="flex w-5 justify-center">
-                                    <div class="h-16">
-                                        <div class="w-2 h-2 bg-black rounded-md"></div>
-                                    </div>	
-                                </div>
-                                <span class="chart-value-title">Jan</span>
-                            </div>
-                            <div class="chart-column group">
-                                <span class="chart-value group-hover:block">37,500</span>
-                                <div class="flex w-5 justify-center">
-                                    <div class="h-16">
-                                        <div class="w-2 h-2 bg-black rounded-md"></div>
-                                    </div>	
-                                </div>
-                                <span class="chart-value-title">Jan</span>
-                            </div>
-                            <div class="chart-column group">
-                                <span class="chart-value group-hover:block">37,500</span>
-                                <div class="flex w-5 justify-center">
-                                    <div class="h-16">
-                                        <div class="w-2 h-2 bg-black rounded-md"></div>
-                                    </div>	
-                                </div>
-                                <span class="chart-value-title">Jan</span>
-                            </div>
-                            <div class="chart-column group">
-                                <span class="chart-value group-hover:block">37,500</span>
-                                <div class="flex w-5 justify-center">
-                                    <div class="h-16">
-                                        <div class="w-2 h-2 bg-black rounded-md"></div>
-                                    </div>	
-                                </div>
-                                <span class="chart-value-title">Jan</span>
+                        </div>
+                        <div class="user-commission-profit col-span-2">
+                            <div class="user-comm-info">
+                                <span class="font-semibold text-xs">Gross Profit</span>
+                                <span class="font-extrabold text-xs lg:text-lg">+40,000</span>
                             </div>
                         </div>
                     </div>
+                    
                 </div>
-                <!-- PM Commission -->
-                <div class="w-full">
-                    <div class="user-chart-container">
-                        <h2 class="chart-title">PM Commission</h2>
-                        <div class="chart-inner">
-                            <div class="chart-column group">
-                                <span class="chart-value group-hover:block">37,500</span>
-                                <div class="flex w-5 justify-center">
-                                    <div class="h-16">
-                                        <div class="w-2 h-2 bg-black rounded-md"></div>
-                                    </div>	
-                                </div>
-                                <span class="chart-value-title">Jan</span>
-                            </div>
-                            <div class="chart-column group">
-                                <span class="chart-value group-hover:block">37,500</span>
-                                <div class="flex w-5 justify-center">
-                                    <div class="h-16">
-                                        <div class="w-2 h-2 bg-black rounded-md"></div>
-                                    </div>	
-                                </div>
-                                <span class="chart-value-title">Jan</span>
-                            </div>
-                            <div class="chart-column group">
-                                <span class="chart-value group-hover:block">37,500</span>
-                                <div class="flex w-5 justify-center">
-                                    <div class="h-16">
-                                        <div class="w-2 h-2 bg-black rounded-md"></div>
-                                    </div>	
-                                </div>
-                                <span class="chart-value-title">Jan</span>
-                            </div>
-                            <div class="chart-column group">
-                                <span class="chart-value group-hover:block">37,500</span>
-                                <div class="flex w-5 justify-center">
-                                    <div class="h-16">
-                                        <div class="w-2 h-2 bg-black rounded-md"></div>
-                                    </div>	
-                                </div>
-                                <span class="chart-value-title">Jan</span>
-                            </div>
-                            <div class="chart-column group">
-                                <span class="chart-value group-hover:block">37,500</span>
-                                <div class="flex w-5 justify-center">
-                                    <div class="h-16">
-                                        <div class="w-2 h-2 bg-black rounded-md"></div>
-                                    </div>	
-                                </div>
-                                <span class="chart-value-title">Jan</span>
-                            </div>
-                            <div class="chart-column group">
-                                <span class="chart-value group-hover:block">37,500</span>
-                                <div class="flex w-5 justify-center">
-                                    <div class="h-16">
-                                        <div class="w-2 h-2 bg-black rounded-md"></div>
-                                    </div>	
-                                </div>
-                                <span class="chart-value-title">Jan</span>
-                            </div>
-                            <div class="chart-column group">
-                                <span class="chart-value group-hover:block">37,500</span>
-                                <div class="flex w-5 justify-center">
-                                    <div class="h-16">
-                                        <div class="w-2 h-2 bg-black rounded-md"></div>
-                                    </div>	
-                                </div>
-                                <span class="chart-value-title">Jan</span>
-                            </div>
-                            <div class="chart-column group">
-                                <span class="chart-value group-hover:block">37,500</span>
-                                <div class="flex w-5 justify-center">
-                                    <div class="h-16">
-                                        <div class="w-2 h-2 bg-black rounded-md"></div>
-                                    </div>	
-                                </div>
-                                <span class="chart-value-title">Jan</span>
-                            </div>
-                            <div class="chart-column group">
-                                <span class="chart-value group-hover:block">37,500</span>
-                                <div class="flex w-5 justify-center">
-                                    <div class="h-16">
-                                        <div class="w-2 h-2 bg-black rounded-md"></div>
-                                    </div>	
-                                </div>
-                                <span class="chart-value-title">Jan</span>
-                            </div>
-                            <div class="chart-column group">
-                                <span class="chart-value group-hover:block">37,500</span>
-                                <div class="flex w-5 justify-center">
-                                    <div class="h-16">
-                                        <div class="w-2 h-2 bg-black rounded-md"></div>
-                                    </div>	
-                                </div>
-                                <span class="chart-value-title">Jan</span>
+            </section>
+
+
+            <section class="grid grid-cols-4 mt-3">
+                <div></div>
+                <div class="col-span-3">
+                    <div class="grid grid-cols-9 gap-x-2">
+                        <div class="ag-commission col-span-3">
+                            <div class="ag-commission-inner">
+                                <span class="font-bold text-xs lg:text-base">Bonus</span>
+                                <span class="font-extrabold lg:text-xl">3,000,000</span>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <!-- 3D Commission -->
-                <div class="w-full">
-                    <div class="user-chart-container">
-                        <h2 class="chart-title">3D Commission</h2>
-                        <div class="chart-inner">
-                            <div class="chart-column group">
-                                <span class="chart-value group-hover:block">37,500</span>
-                                <div class="flex w-5 justify-center">
-                                    <div class="h-16">
-                                        <div class="w-2 h-2 bg-black rounded-md"></div>
-                                    </div>	
-                                </div>
-                                <span class="chart-value-title">Jan</span>
+                        <div class="ag-commission col-span-2">
+                            <div class="ag-commission-inner">
+                                <span class="font-bold text-xs lg:text-base">Referral</span>
+                                <span class="font-extrabold lg:text-xl">3,000,000</span>
                             </div>
-                            <div class="chart-column group">
-                                <span class="chart-value group-hover:block">37,500</span>
-                                <div class="flex w-5 justify-center">
-                                    <div class="h-16">
-                                        <div class="w-2 h-2 bg-black rounded-md"></div>
-                                    </div>	
-                                </div>
-                                <span class="chart-value-title">Jan</span>
+                        </div>
+                        <div class="ag-commission col-span-2">
+                            <div class="ag-commission-inner">
+                                <span class="font-bold text-xs lg:text-base">Cash Agents</span>
+                                <span class="font-extrabold lg:text-xl">3,000,000</span>
                             </div>
-                            <div class="chart-column group">
-                                <span class="chart-value group-hover:block">37,500</span>
-                                <div class="flex w-5 justify-center">
-                                    <div class="h-16">
-                                        <div class="w-2 h-2 bg-black rounded-md"></div>
-                                    </div>	
-                                </div>
-                                <span class="chart-value-title">Jan</span>
-                            </div>
-                            <div class="chart-column group">
-                                <span class="chart-value group-hover:block">37,500</span>
-                                <div class="flex w-5 justify-center">
-                                    <div class="h-16">
-                                        <div class="w-2 h-2 bg-black rounded-md"></div>
-                                    </div>	
-                                </div>
-                                <span class="chart-value-title">Jan</span>
-                            </div>
-                            <div class="chart-column group">
-                                <span class="chart-value group-hover:block">37,500</span>
-                                <div class="flex w-5 justify-center">
-                                    <div class="h-16">
-                                        <div class="w-2 h-2 bg-black rounded-md"></div>
-                                    </div>	
-                                </div>
-                                <span class="chart-value-title">Jan</span>
-                            </div>
-                            <div class="chart-column group">
-                                <span class="chart-value group-hover:block">37,500</span>
-                                <div class="flex w-5 justify-center">
-                                    <div class="h-16">
-                                        <div class="w-2 h-2 bg-black rounded-md"></div>
-                                    </div>	
-                                </div>
-                                <span class="chart-value-title">Jan</span>
-                            </div>
-                            <div class="chart-column group">
-                                <span class="chart-value group-hover:block">37,500</span>
-                                <div class="flex w-5 justify-center">
-                                    <div class="h-16">
-                                        <div class="w-2 h-2 bg-black rounded-md"></div>
-                                    </div>	
-                                </div>
-                                <span class="chart-value-title">Jan</span>
-                            </div>
-                            <div class="chart-column group">
-                                <span class="chart-value group-hover:block">37,500</span>
-                                <div class="flex w-5 justify-center">
-                                    <div class="h-16">
-                                        <div class="w-2 h-2 bg-black rounded-md"></div>
-                                    </div>	
-                                </div>
-                                <span class="chart-value-title">Jan</span>
-                            </div>
-                            <div class="chart-column group">
-                                <span class="chart-value group-hover:block">37,500</span>
-                                <div class="flex w-5 justify-center">
-                                    <div class="h-16">
-                                        <div class="w-2 h-2 bg-black rounded-md"></div>
-                                    </div>	
-                                </div>
-                                <span class="chart-value-title">Jan</span>
-                            </div>
-                            <div class="chart-column group">
-                                <span class="chart-value group-hover:block">37,500</span>
-                                <div class="flex w-5 justify-center">
-                                    <div class="h-16">
-                                        <div class="w-2 h-2 bg-black rounded-md"></div>
-                                    </div>	
-                                </div>
-                                <span class="chart-value-title">Jan</span>
+                        </div>
+                        <div class="ag-commission col-span-2">
+                            <div class="ag-commission-inner">
+                                <span class="font-bold text-xs lg:text-base">Betting Agents</span>
+                                <span class="font-extrabold lg:text-xl">3,000,000</span>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
+            
+
+            
         </div>
     </div>
 </body>

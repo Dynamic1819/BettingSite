@@ -1,0 +1,220 @@
+
+
+<section class="flex">
+
+    <!-- Refrees section -->
+
+    <section class="flex flex-wrap">
+        
+        
+        
+        <div class="user-commission-profit">
+            <div class="user-commission-inner">
+                <span class="font-semibold">Net Profit / Net lost</span>
+                <span class="font-extrabold text-xl">+40,000</span>
+            </div>
+        </div>
+    </section>
+</section>
+
+<!-- User Chart -->
+<section class="flex flex-wrap">
+
+   
+    <!-- PM Commission -->
+    <div class="w-full">
+        <div class="user-chart-container">
+            <h2 class="chart-title">PM Commission</h2>
+            <div class="chart-inner">
+                <div class="chart-column group">
+                    <span class="chart-value group-hover:block">37,500</span>
+                    <div class="flex w-5 justify-center">
+                        <div class="h-16">
+                            <div class="w-2 h-2 bg-black rounded-md"></div>
+                        </div>	
+                    </div>
+                    <span class="chart-value-title">Jan</span>
+                </div>
+                <div class="chart-column group">
+                    <span class="chart-value group-hover:block">37,500</span>
+                    <div class="flex w-5 justify-center">
+                        <div class="h-16">
+                            <div class="w-2 h-2 bg-black rounded-md"></div>
+                        </div>	
+                    </div>
+                    <span class="chart-value-title">Jan</span>
+                </div>
+                <div class="chart-column group">
+                    <span class="chart-value group-hover:block">37,500</span>
+                    <div class="flex w-5 justify-center">
+                        <div class="h-16">
+                            <div class="w-2 h-2 bg-black rounded-md"></div>
+                        </div>	
+                    </div>
+                    <span class="chart-value-title">Jan</span>
+                </div>
+                <div class="chart-column group">
+                    <span class="chart-value group-hover:block">37,500</span>
+                    <div class="flex w-5 justify-center">
+                        <div class="h-16">
+                            <div class="w-2 h-2 bg-black rounded-md"></div>
+                        </div>	
+                    </div>
+                    <span class="chart-value-title">Jan</span>
+                </div>
+                <div class="chart-column group">
+                    <span class="chart-value group-hover:block">37,500</span>
+                    <div class="flex w-5 justify-center">
+                        <div class="h-16">
+                            <div class="w-2 h-2 bg-black rounded-md"></div>
+                        </div>	
+                    </div>
+                    <span class="chart-value-title">Jan</span>
+                </div>
+                <div class="chart-column group">
+                    <span class="chart-value group-hover:block">37,500</span>
+                    <div class="flex w-5 justify-center">
+                        <div class="h-16">
+                            <div class="w-2 h-2 bg-black rounded-md"></div>
+                        </div>	
+                    </div>
+                    <span class="chart-value-title">Jan</span>
+                </div>
+                <div class="chart-column group">
+                    <span class="chart-value group-hover:block">37,500</span>
+                    <div class="flex w-5 justify-center">
+                        <div class="h-16">
+                            <div class="w-2 h-2 bg-black rounded-md"></div>
+                        </div>	
+                    </div>
+                    <span class="chart-value-title">Jan</span>
+                </div>
+                <div class="chart-column group">
+                    <span class="chart-value group-hover:block">37,500</span>
+                    <div class="flex w-5 justify-center">
+                        <div class="h-16">
+                            <div class="w-2 h-2 bg-black rounded-md"></div>
+                        </div>	
+                    </div>
+                    <span class="chart-value-title">Jan</span>
+                </div>
+                <div class="chart-column group">
+                    <span class="chart-value group-hover:block">37,500</span>
+                    <div class="flex w-5 justify-center">
+                        <div class="h-16">
+                            <div class="w-2 h-2 bg-black rounded-md"></div>
+                        </div>	
+                    </div>
+                    <span class="chart-value-title">Jan</span>
+                </div>
+                <div class="chart-column group">
+                    <span class="chart-value group-hover:block">37,500</span>
+                    <div class="flex w-5 justify-center">
+                        <div class="h-16">
+                            <div class="w-2 h-2 bg-black rounded-md"></div>
+                        </div>	
+                    </div>
+                    <span class="chart-value-title">Jan</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 3D Commission -->
+    <div class="w-full">
+        <div class="user-chart-container">
+            <h2 class="chart-title">3D Commission</h2>
+            <div class="chart-inner">
+                <div class="chart-column group">
+                    <span class="chart-value group-hover:block">37,500</span>
+                    <div class="flex w-5 justify-center">
+                        <div class="h-16">
+                            <div class="w-2 h-2 bg-black rounded-md"></div>
+                        </div>	
+                    </div>
+                    <span class="chart-value-title">Jan</span>
+                </div>
+                <div class="chart-column group">
+                    <span class="chart-value group-hover:block">37,500</span>
+                    <div class="flex w-5 justify-center">
+                        <div class="h-16">
+                            <div class="w-2 h-2 bg-black rounded-md"></div>
+                        </div>	
+                    </div>
+                    <span class="chart-value-title">Jan</span>
+                </div>
+                <div class="chart-column group">
+                    <span class="chart-value group-hover:block">37,500</span>
+                    <div class="flex w-5 justify-center">
+                        <div class="h-16">
+                            <div class="w-2 h-2 bg-black rounded-md"></div>
+                        </div>	
+                    </div>
+                    <span class="chart-value-title">Jan</span>
+                </div>
+                <div class="chart-column group">
+                    <span class="chart-value group-hover:block">37,500</span>
+                    <div class="flex w-5 justify-center">
+                        <div class="h-16">
+                            <div class="w-2 h-2 bg-black rounded-md"></div>
+                        </div>	
+                    </div>
+                    <span class="chart-value-title">Jan</span>
+                </div>
+                <div class="chart-column group">
+                    <span class="chart-value group-hover:block">37,500</span>
+                    <div class="flex w-5 justify-center">
+                        <div class="h-16">
+                            <div class="w-2 h-2 bg-black rounded-md"></div>
+                        </div>	
+                    </div>
+                    <span class="chart-value-title">Jan</span>
+                </div>
+                <div class="chart-column group">
+                    <span class="chart-value group-hover:block">37,500</span>
+                    <div class="flex w-5 justify-center">
+                        <div class="h-16">
+                            <div class="w-2 h-2 bg-black rounded-md"></div>
+                        </div>	
+                    </div>
+                    <span class="chart-value-title">Jan</span>
+                </div>
+                <div class="chart-column group">
+                    <span class="chart-value group-hover:block">37,500</span>
+                    <div class="flex w-5 justify-center">
+                        <div class="h-16">
+                            <div class="w-2 h-2 bg-black rounded-md"></div>
+                        </div>	
+                    </div>
+                    <span class="chart-value-title">Jan</span>
+                </div>
+                <div class="chart-column group">
+                    <span class="chart-value group-hover:block">37,500</span>
+                    <div class="flex w-5 justify-center">
+                        <div class="h-16">
+                            <div class="w-2 h-2 bg-black rounded-md"></div>
+                        </div>	
+                    </div>
+                    <span class="chart-value-title">Jan</span>
+                </div>
+                <div class="chart-column group">
+                    <span class="chart-value group-hover:block">37,500</span>
+                    <div class="flex w-5 justify-center">
+                        <div class="h-16">
+                            <div class="w-2 h-2 bg-black rounded-md"></div>
+                        </div>	
+                    </div>
+                    <span class="chart-value-title">Jan</span>
+                </div>
+                <div class="chart-column group">
+                    <span class="chart-value group-hover:block">37,500</span>
+                    <div class="flex w-5 justify-center">
+                        <div class="h-16">
+                            <div class="w-2 h-2 bg-black rounded-md"></div>
+                        </div>	
+                    </div>
+                    <span class="chart-value-title">Jan</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

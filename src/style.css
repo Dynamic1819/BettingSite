@@ -25,6 +25,11 @@
 .bggray{
     @apply bg-[#2D3E65] text-white;
 }
+select {
+    -moz-appearance:none; /* Firefox */
+    -webkit-appearance:none; /* Safari and Chrome */
+    appearance:none;
+}
 
 /* Sidebar */
 .menu{
@@ -48,9 +53,11 @@
 .date-box{
     @apply shadow-lg my-2 rounded-md text-xs relative overflow-hidden;
 }
-.date-box::after{
-    @apply absolute border-x-[6.5px] border-t-[6.5px] border-x-transparent border-t-[#F6921E] top-[7.3px] right-[2.7px] z-[98];
-    content: " ";
+.icon-container{
+    @apply absolute top-[25%] right-1;
+}
+.icon-color{
+    @apply text-[#F6921E];
 }
 
 /* Index page */

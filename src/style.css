@@ -43,13 +43,13 @@
     @apply w-5 h-5;
 }
 .date-container{
-    @apply flex md:flex-wrap lg:flex-nowrap justify-between w-full md:pr-1;
+    @apply flex md:flex-wrap lg:flex-nowrap w-full md:pr-1;
 }
 .date-box{
     @apply shadow-lg my-2 rounded-md text-xs relative overflow-hidden;
 }
 .date-box::after{
-    @apply absolute border-x-[6.5px] border-t-[6.5px] border-x-transparent border-t-[#F6921E] top-[41%] right-[2.5px] z-[98];
+    @apply absolute border-x-[6.5px] border-t-[6.5px] border-x-transparent border-t-[#F6921E] top-[7.3px] right-[2.7px] z-[98];
     content: " ";
 }
 
@@ -176,7 +176,7 @@
 
 /* Active Balance User */
 .act-user{
-    @apply flex items-center p-3 mx-3 rounded-md md:h-8 lg:h-12;
+    @apply flex items-center px-3 py-1 rounded-md md:h-8 lg:h-12;
 }
 .btn-active{
     @apply bg-yellow-500 text-white;
